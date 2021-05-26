@@ -349,7 +349,7 @@ canvas {
 }
 
 .grid1 .post:nth-child(1) .pimg{
-  background: url('imgs/h1.jpg');
+  background: url('imgs/h3.jpg');
 }
 
 .grid2 {
@@ -358,6 +358,16 @@ canvas {
   color: #fff;
   padding: 20px;
 }
+
+.grid2 .post:nth-child(1) .pimg{
+  background: url('imgs/h3.jpg');
+}
+
+.grid2 .post:nth-child(2) .pimg{
+  background: url('imgs/h1.jpg');
+}
+
+
 
 .grid3 {
   width: 20%;
@@ -428,6 +438,10 @@ canvas {
   height: 2px;
   background-color: grey;
   margin-top: 30px;
+}
+
+.love{
+  color: rgb(240, 37, 37);
 }
 
 @keyframes ghumaao {
