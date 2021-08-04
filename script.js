@@ -1,5 +1,6 @@
 const app = new PIXI.Application();
-document.querySelector('#landing').appendChild(app.view);
+let landing = document.querySelector('#landing').appendChild(app.view);
+
 
 // Inner radius of the circle
 const radius = 90;

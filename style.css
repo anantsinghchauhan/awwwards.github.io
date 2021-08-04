@@ -98,6 +98,10 @@ nav a {
   align-items: center;
 }
 
+canvas{
+  transition: all 500ms ease-out;
+}
+
 #catg i {
   color: #fff;
   margin-top: 4px;
@@ -120,6 +124,7 @@ nav a {
 
 canvas {
   width: 100%;
+  transition: all 500ms ease-in-out;
 }
 
 #hero {
@@ -276,7 +281,15 @@ canvas {
   right: 10%;
   width: 400px;
   height: 130px;
-  background-image: url(bg.png);
+  /* background-image: url(bg.png); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#prlx video {
+  width: inherit;
+  height: inherit;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -329,7 +342,7 @@ canvas {
   display: flex;
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .grid1 {
