@@ -279,20 +279,14 @@ canvas {
   position: absolute;
   top: 40%;
   right: 10%;
+  z-index: 999;
   width: 400px;
-  height: 130px;
-  /* background-image: url(bg.png); */
-  background-size: cover;
+  height: 150px;
+  background-image: url('./bg.png');
+  background-size: 180%;
   background-position: center;
-  background-attachment: fixed;
-}
-
-#prlx video {
-  width: inherit;
-  height: inherit;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  object-fit: cover;
+  /* background-attachment: fixed; */
 }
 
 #halloffame {
